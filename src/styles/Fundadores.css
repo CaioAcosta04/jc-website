@@ -1,0 +1,234 @@
+.fundadores-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  padding: 100px 20px;
+}
+
+.fundadores-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.5)
+  );
+  z-index: 1;
+}
+
+.fundadores-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+  color: #ffffff;
+  animation: fadeIn 1s ease-in;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3498db;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fundadores-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.fundadores-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #3498db, #2ecc71);
+  border-radius: 2px;
+}
+
+.fundadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.fundador-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.fundador-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.fundador-image-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 2rem;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #3498db;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.fundador-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fundador-card:hover .fundador-image {
+  transform: scale(1.05);
+}
+
+.fundador-card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.fundador-cargo {
+  font-size: 1.1rem;
+  color: #3498db;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.fundador-bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.fundador-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.fundador-skills span {
+  background: rgba(52, 152, 219, 0.1);
+  color: #3498db;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.fundador-skills span:hover {
+  background: rgba(52, 152, 219, 0.2);
+  transform: translateY(-2px);
+}
+
+.fundadores-cta {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+}
+
+.cta-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background: linear-gradient(90deg, #3498db, #2ecc71);
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .fundadores-title {
+    font-size: 2.5rem;
+  }
+  
+  .fundador-card {
+    padding: 2rem;
+  }
+  
+  .fundador-image-container {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .fundador-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .fundador-cargo {
+    font-size: 1rem;
+  }
+  
+  .cta-text {
+    font-size: 1.2rem;
+  }
+  
+  .cta-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+} 
