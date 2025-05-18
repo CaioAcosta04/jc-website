@@ -17,13 +17,13 @@ const Fundadores: React.FC = () => {
           <div className="fundador-card">
             <div className="fundador-image-container">
               <img 
-                src="/images/fundador1.jpg" 
+                src="/images/fundador1.jpeg" 
                 alt="Caio Acosta" 
                 className="fundador-image"
               />
             </div>
             <h3>Caio Acosta</h3>
-            <p className="fundador-cargo">CEO & Desenvolvedor Full Stack</p>
+            <p className="fundador-cargo">CEO & Co-Founder</p>
             <p className="fundador-bio">
               Com mais de 5 anos de experiência em desenvolvimento de software, 
               Caio lidera a J&C Technologies com uma visão clara de inovação e 
@@ -42,13 +42,13 @@ const Fundadores: React.FC = () => {
           <div className="fundador-card">
             <div className="fundador-image-container">
               <img 
-                src="/images/fundador2.jpg" 
-                alt="João Silva" 
+                src="/images/fundador2.jpeg" 
+                alt="João Gabriel" 
                 className="fundador-image"
               />
             </div>
-            <h3>João Silva</h3>
-            <p className="fundador-cargo">CTO & Arquiteto de Software</p>
+            <h3>João Gabriel</h3>
+            <p className="fundador-cargo">CTO & Co-Founder</p>
             <p className="fundador-bio">
               João traz mais de 7 anos de experiência em desenvolvimento de 
               software e arquitetura de sistemas. Sua expertise em tecnologias 
