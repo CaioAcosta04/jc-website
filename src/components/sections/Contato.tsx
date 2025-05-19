@@ -46,22 +46,20 @@ const Contato: React.FC = () => {
             <div className="info-card">
               <div className="info-icon">📍</div>
               <h3>Endereço</h3>
-              <p>Av. Paulista, 1000 - Bela Vista</p>
-              <p>São Paulo - SP, 01310-100</p>
+              <p>Empresa 100% Home Office</p>
             </div>
 
             <div className="info-card">
               <div className="info-icon">📞</div>
               <h3>Telefone</h3>
-              <p>+55 (11) 99999-9999</p>
-              <p>+55 (11) 3333-3333</p>
+              <p>+55 (19) 99923-2639</p>
+              <p>+55 (19) 99889-9900</p>
             </div>
 
             <div className="info-card">
               <div className="info-icon">✉️</div>
               <h3>Email</h3>
-              <p>contato@jctech.com.br</p>
-              <p>comercial@jctech.com.br</p>
+              <p>jandctech2@gmail.com</p>
             </div>
 
             <div className="info-card">

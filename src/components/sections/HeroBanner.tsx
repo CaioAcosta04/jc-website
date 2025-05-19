@@ -3,7 +3,7 @@ import '../../styles/HeroBanner.css';
 
 const HeroBanner: React.FC = () => {
   const handleContactClick = () => {
-    window.open('https://wa.me/SEUNUMERO', '_blank');
+    window.open('https://wa.me/5519999232639', '_blank');
   };
 
   return (
@@ -14,7 +14,6 @@ const HeroBanner: React.FC = () => {
           J&C <span style={{ fontWeight: 300 }}>TECHNOLOGIES</span>
         </h1>
         <p className="hero-slogan">
-          {/* Placeholder para o slogan que será definido depois */}
           Transformando problemas em soluções digitais
         </p>
         <button 

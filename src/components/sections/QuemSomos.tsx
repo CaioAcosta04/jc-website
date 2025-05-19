@@ -2,6 +2,11 @@ import React from 'react';
 import '../../styles/QuemSomos.css';
 
 const QuemSomos: React.FC = () => {
+
+  const handleContactClick = () => {
+    window.open('https://wa.me/5519999232639', '_blank');
+  };
+
   return (
     <section className="quem-somos-section" id="quem-somos">
       <div className="quem-somos-overlay"></div>
@@ -52,7 +57,7 @@ const QuemSomos: React.FC = () => {
 
         <div className="quem-somos-cta">
           <p className="cta-text">Pronto para transformar sua empresa com tecnologia?</p>
-          <button className="cta-button">Fale Conosco</button>
+          <button className="cta-button" onClick={handleContactClick}>Fale Conosco</button>
         </div>
       </div>
     </section>
