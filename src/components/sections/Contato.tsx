@@ -134,16 +134,10 @@ const Contato: React.FC = () => {
 
         <div className="social-links">
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
-            <span className="social-icon">🔗</span>
-            LinkedIn
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
-            <span className="social-icon">📸</span>
-            Instagram
-          </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
-            <span className="social-icon">💻</span>
-            GitHub
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
       </div>

@@ -11,72 +11,75 @@ const Servicos: React.FC = () => {
           <h1 className="servicos-title">
             Soluções Tecnológicas Completas
           </h1>
+          <p className="section-description">
+            Transformamos ideias em soluções digitais inovadoras, impulsionando o crescimento do seu negócio
+          </p>
         </div>
 
         <div className="servicos-grid">
           <div className="servico-card">
-            <div className="servico-icon">💻</div>
+            <div className="servico-icon">
+              <i className="fas fa-laptop-code"></i>
+            </div>
             <h3>Desenvolvimento Web</h3>
             <p>
-              Criamos sites e aplicações web modernas, responsivas e otimizadas para SEO. 
-              Utilizamos as mais recentes tecnologias para garantir performance e segurança.
+              Criamos soluções web modernas e escaláveis, utilizando as mais recentes tecnologias 
+              para garantir performance, segurança e uma experiência excepcional para seus usuários.
             </p>
             <ul className="servico-features">
-              <li>Sites Institucionais</li>
-              <li>E-commerce</li>
-              <li>Aplicações Web</li>
-              <li>Landing Pages</li>
+              <li><i className="fas fa-check"></i> Sites Institucionais Responsivos</li>
+              <li><i className="fas fa-check"></i> E-commerce Personalizado</li>
+              <li><i className="fas fa-check"></i> Aplicações Web Complexas</li>
+              <li><i className="fas fa-check"></i> Landing Pages Otimizadas</li>
             </ul>
+            <button className="servico-button">
+              Saiba Mais <i className="fas fa-arrow-right"></i>
+            </button>
           </div>
 
           <div className="servico-card">
-            <div className="servico-icon">📱</div>
+            <div className="servico-icon">
+              <i className="fas fa-mobile-alt"></i>
+            </div>
             <h3>Desenvolvimento Mobile</h3>
             <p>
-              Desenvolvemos aplicativos nativos e híbridos para iOS e Android, 
-              focando em experiência do usuário e performance.
+              Desenvolvemos aplicativos nativos e híbridos que proporcionam uma experiência 
+              fluida e intuitiva, mantendo a performance e segurança como prioridades.
             </p>
             <ul className="servico-features">
-              <li>Apps Nativos</li>
-              <li>Apps Híbridos</li>
-              <li>PWA</li>
-              <li>Manutenção</li>
+              <li><i className="fas fa-check"></i> Apps Nativos iOS e Android</li>
+              <li><i className="fas fa-check"></i> Aplicativos Híbridos</li>
+              <li><i className="fas fa-check"></i> Progressive Web Apps</li>
+              <li><i className="fas fa-check"></i> Manutenção e Suporte</li>
             </ul>
+            <button className="servico-button">
+              Saiba Mais <i className="fas fa-arrow-right"></i>
+            </button>
           </div>
 
           <div className="servico-card">
-            <div className="servico-icon">🔄</div>
+            <div className="servico-icon">
+              <i className="fas fa-robot"></i>
+            </div>
             <h3>Automação</h3>
             <p>
-              Automatizamos processos de negócio para aumentar a eficiência e 
-              reduzir custos operacionais.
+              Implementamos soluções de automação inteligentes que otimizam processos, 
+              reduzem custos e aumentam a produtividade da sua empresa.
             </p>
             <ul className="servico-features">
-              <li>RPA</li>
-              <li>Workflows</li>
-              <li>Integrações</li>
-              <li>Automação de Testes</li>
+              <li><i className="fas fa-check"></i> Robotic Process Automation</li>
+              <li><i className="fas fa-check"></i> Workflows Automatizados</li>
+              <li><i className="fas fa-check"></i> Integração de Sistemas</li>
+              <li><i className="fas fa-check"></i> Automação de Testes</li>
             </ul>
-          </div>
-
-          <div className="servico-card">
-            <div className="servico-icon">🔒</div>
-            <h3>Consultoria em TI</h3>
-            <p>
-              Oferecemos consultoria especializada em tecnologia, ajudando empresas 
-              a implementar soluções digitais de forma estratégica.
-            </p>
-            <ul className="servico-features">
-              <li>Análise de Requisitos</li>
-              <li>Arquitetura de Software</li>
-              <li>DevOps</li>
-              <li>Segurança</li>
-            </ul>
+            <button className="servico-button">
+              Saiba Mais <i className="fas fa-arrow-right"></i>
+            </button>
           </div>
         </div>
 
         <div className="servicos-cta">
-          <p className="cta-text">Precisa de uma solução personalizada?</p>
+          <p className="cta-text">Precisa de uma solução personalizada para seu negócio?</p>
           <button className="cta-button">Solicite um Orçamento</button>
         </div>
       </div>

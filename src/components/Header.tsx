@@ -24,7 +24,7 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-content">
         <div className="logo">
-          <span className="logo-text">J&C TECH</span>
+          <img src="/images/logo.png" alt="J&C TECH" className="logo-image" />
         </div>
         
         <nav className="nav-menu">

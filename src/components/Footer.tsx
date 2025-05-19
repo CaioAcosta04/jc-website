@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <span className="logo-text">J&C TECH</span>
+          <img src="/images/logo.png" alt="J&C TECH" className="logo-image" />
         </div>
         
         <div className="footer-info">
@@ -22,13 +22,10 @@ const Footer: React.FC = () => {
 
         <div className="footer-social">
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
-            LinkedIn
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
-            Instagram
-          </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
-            GitHub
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
       </div>

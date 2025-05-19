@@ -30,6 +30,16 @@
   align-items: center;
 }
 
+.logo-image {
+  height: 10vh;
+  width: auto;
+  transition: all 0.3s ease;
+}
+
+.header.scrolled .logo-image {
+  height: 5vh;
+}
+
 .logo-text {
   font-size: 1.8rem;
   font-weight: 800;
@@ -86,8 +96,12 @@
     padding: 0 1rem;
   }
 
-  .logo-text {
-    font-size: 1.5rem;
+  .logo-image {
+    height: 50px;
+  }
+
+  .header.scrolled .logo-image {
+    height: 45px;
   }
 
   .nav-menu {
@@ -101,6 +115,14 @@
 }
 
 @media (max-width: 480px) {
+  .logo-image {
+    height: 45px;
+  }
+
+  .header.scrolled .logo-image {
+    height: 40px;
+  }
+
   .nav-menu {
     display: none;
   }

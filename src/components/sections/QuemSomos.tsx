@@ -16,48 +16,39 @@ const QuemSomos: React.FC = () => {
         <div className="quem-somos-grid">
           <div className="quem-somos-text">
             <p className="quem-somos-paragraph">
-              Fundada em 2020, a J&C Technologies nasceu da visão de dois empreendedores apaixonados por tecnologia e inovação. 
-              O que começou como um pequeno projeto de desenvolvimento de software rapidamente se transformou em uma empresa 
-              reconhecida por sua excelência e compromisso com resultados.
+              Fundada em 2025, a J&C Technologies nasceu da união de dois profissionais apaixonados por tecnologia e inovação. 
+              Especialistas em transformar desafios em soluções tecnológicas eficientes, construímos nossa reputação 
+              baseada em confiança e excelência, garantindo resultados excepcionais para nossos clientes.
             </p>
             <p className="quem-somos-paragraph">
-              Nossa jornada começou com o desenvolvimento de soluções personalizadas para pequenas empresas locais, 
-              e hoje atendemos clientes de diversos setores, desde startups até grandes corporações. Ao longo dos anos, 
-              construímos uma reputação sólida baseada em três pilares fundamentais: inovação, qualidade e parceria.
+              Nossa trajetória iniciou-se com o desenvolvimento de soluções sob medida para pequenas empresas locais. 
+              Ao longo de nossa história, estabelecemos uma reputação sólida fundamentada em três pilares essenciais: 
+              inovação constante, excelência em qualidade e parcerias duradouras.
             </p>
-          </div>
-
-          <div className="quem-somos-stats">
-            <div className="stat-item">
-              <span className="stat-number">100+</span>
-              <span className="stat-label">Projetos Entregues</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">50+</span>
-              <span className="stat-label">Clientes Satisfeitos</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">3+</span>
-              <span className="stat-label">Anos de Experiência</span>
-            </div>
           </div>
         </div>
 
         <div className="quem-somos-values">
           <div className="value-item">
-            <div className="value-icon">🚀</div>
-            <h3>Inovação</h3>
-            <p>Buscamos constantemente novas tecnologias e metodologias para entregar soluções de ponta que transformam negócios.</p>
+            <div className="value-icon">
+              <i className="fas fa-handshake"></i>
+            </div>
+            <h3>Confiança</h3>
+            <p>Construímos relacionamentos duradouros baseados em transparência e compromisso com nossos clientes.</p>
           </div>
           <div className="value-item">
-            <div className="value-icon">⭐</div>
-            <h3>Qualidade</h3>
-            <p>Comprometimento com a excelência em cada projeto, garantindo soluções robustas e escaláveis.</p>
+            <div className="value-icon">
+              <i className="fas fa-shield-alt"></i>
+            </div>
+            <h3>Segurança</h3>
+            <p>Garantimos a proteção e integridade dos dados e sistemas de nossos clientes em todas as nossas soluções.</p>
           </div>
           <div className="value-item">
-            <div className="value-icon">🤝</div>
-            <h3>Parceria</h3>
-            <p>Construímos relacionamentos duradouros baseados em confiança, transparência e resultados mensuráveis.</p>
+            <div className="value-icon">
+              <i className="fas fa-award"></i>
+            </div>
+            <h3>Excelência</h3>
+            <p>Buscamos a perfeição em cada projeto, entregando soluções de alta qualidade e inovação.</p>
           </div>
         </div>
 
