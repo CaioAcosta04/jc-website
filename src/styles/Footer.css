@@ -78,10 +78,16 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    height: auto;
+    padding: 2rem 0;
+  }
+
   .footer-content {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 1.5rem;
+    padding: 0 1rem;
   }
 
   .footer-logo {
@@ -92,13 +98,33 @@
     height: 50px;
   }
 
+  .footer-info {
+    padding: 0 1rem;
+  }
+
   .footer-social {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-social .social-link {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 480px) {
   .footer-logo .logo-image {
     height: 45px;
+  }
+
+  .footer-logo .logo-text {
+    font-size: 1.5rem;
+  }
+
+  .copyright, .address {
+    font-size: 0.85rem;
   }
 } 

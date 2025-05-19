@@ -13,7 +13,6 @@ const QuemSomos: React.FC = () => {
           </h1>
         </div>
 
-        <div className="quem-somos-grid">
           <div className="quem-somos-text">
             <p className="quem-somos-paragraph">
               Fundada em 2025, a J&C Technologies nasceu da união de dois profissionais apaixonados por tecnologia e inovação. 
@@ -25,7 +24,6 @@ const QuemSomos: React.FC = () => {
               Ao longo de nossa história, estabelecemos uma reputação sólida fundamentada em três pilares essenciais: 
               inovação constante, excelência em qualidade e parcerias duradouras.
             </p>
-          </div>
         </div>
 
         <div className="quem-somos-values">

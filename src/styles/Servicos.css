@@ -251,6 +251,7 @@
   
   .servicos-grid {
     grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
   
   .servico-card {
@@ -266,6 +267,25 @@
   .servico-card h3 {
     font-size: 1.3rem;
   }
+
+  .servico-card p {
+    font-size: 0.95rem;
+  }
+
+  .servico-features li {
+    font-size: 0.9rem;
+  }
+
+  .servico-button {
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto 0;
+  }
+  
+  .servicos-cta {
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
+  }
   
   .cta-text {
     font-size: 1.2rem;
@@ -274,5 +294,27 @@
   .cta-button {
     padding: 0.8rem 2rem;
     font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicos-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .servico-card {
+    padding: 1.5rem;
+  }
+
+  .servico-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 1.8rem;
   }
 } 

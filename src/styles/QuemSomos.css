@@ -221,21 +221,63 @@
   
   .quem-somos-paragraph {
     font-size: 1rem;
+    text-align: left;
+    padding: 0 1rem;
   }
   
   .quem-somos-values {
     grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
   
-  .quem-somos-stats {
-    grid-template-columns: 1fr;
+  .value-item {
+    padding: 2rem;
   }
-  
-  .stat-item {
-    padding: 1.5rem;
+
+  .value-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .value-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .value-item p {
+    font-size: 0.95rem;
+  }
+
+  .quem-somos-cta {
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
   }
 
   .cta-text {
     font-size: 1.2rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quem-somos-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .quem-somos-paragraph {
+    font-size: 0.95rem;
+  }
+
+  .value-item {
+    padding: 1.5rem;
   }
 }
